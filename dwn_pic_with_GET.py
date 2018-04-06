@@ -10,7 +10,6 @@ class DorHTTP:
         self.host = host
         self.url = url
 
-t
     def get_it(self):          #using a GET to get the source code and saving as txt file
 
         mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
