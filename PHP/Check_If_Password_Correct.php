@@ -2,7 +2,7 @@
 
 // encrypting the password in a one way encryption (md5)
 // using post variable 
-// comparing the input password to the exsiting one in the passwords.txt file 
+// comparing the input password to the existing one in the passwords.txt file 
 
 
 if(isset($_POST['user_password']))
