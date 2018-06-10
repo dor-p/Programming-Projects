@@ -1,8 +1,9 @@
 <?php 
 
-// encrypting the password in a one way encryption (md5)
-// using post variable 
-// comparing the input password to the existing one in the passwords.txt file 
+// This script is hashing the input password in a one way hash function (md5) and comparing it to the already hashed password
+// that is in 'password.txt'
+// furthermore, I will be using post variable & method .
+
 
 
 if(isset($_POST['user_password']))
