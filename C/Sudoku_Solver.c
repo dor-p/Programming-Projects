@@ -3,7 +3,7 @@
 #define N 9 //the grid is 9X9
 #define UNASSIGNED 0 //'0' value means that the cell is empty.
 
-//Sudoku Solver that uses recursion
+//Sudoku Solver 
 
 //Checking if the number exist in the row
 int exist_row(int grid[N][N], int row, int num){
